@@ -9,6 +9,7 @@ html {
 }
 
 .top-image {
+  width:100%;
   background-color: #191970;
   color:white;
   opacity: 0.8;
@@ -46,6 +47,7 @@ html {
 }
 
 .container {
+  width:100%;
   margin:0 10px;
   height:430px;
 }
