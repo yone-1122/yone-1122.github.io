@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=M+PLUS+1p&display=swap');
+html {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.top-image {
+  background-color: #191970;
+  color:white;
+  opacity: 0.8;
+  text-align:center;
+}
+
+.top-logo {
+  margin:0 auto;
+}
+
+.top-logo > h1 {
+  font-size:120px;
+  letter-spacing:3px;
+  margin:0 40px 0 0;
+  display:inline-block;
+}
+
+.top-logo > h1 > span {
+  font-size:40px;
+  letter-spacing:1px;
+}
+
+.main-container {
+  width:1250px;
+  margin:10px auto;
+  font-size:20px;
+}
+
+.heading {
+  width:200px;
+  margin-bottom:-5px;
+  font-size:33px;
+  font-weight:bold;
+  border-bottom: 3px solid gray;
+}
+
+.container {
+  margin:0 10px;
+  height:430px;
+}
+
+.profile-wrapper {
+  width:600px;
+  float:left;
+}
+
+.profile1 {
+  margin-left:40px;
+  line-height:15px;
+  float:left;
+}
+
+.profile1 > h4 {
+  font-size:25px;
+  font-weight:normal;
+}
+
+.profile1 > span {
+  width:5em;
+  display:inline-block;
+  text-align:left;
+}
+
+img.mask {
+  height:180px;
+  margin-left:40px;
+}
+
+.profile2 {
+  font-size:18px;
+  margin:15px 0 0 10px;
+  padding:10px;
+  background-color:#f4f9ff;
+  border: 5px outset #9eceff;
+}
+
+.history {
+  width:570px;
+  margin-left:30px;
+  padding-top:20px;
+  float:left;
+}
+
+.history details {
+  width:550px;
+  margin-bottom:20px;
+}
+
+.history details > summary {
+  width:10em;
+  padding:3px;
+  cursor:pointer;
+  background-color:#eff7ff;
+  box-shadow:2px 2px 3px black;
+}
+
+.history details > ul {
+  margin:0;
+  font-size:17px;
+  background-color:#f9f9f9;
+  box-shadow:2px 2px 3px black;
+}
+
+span.year, span.month {
+  display:inline-block;
+  width:1.2em;
+  text-align:right;
+}
+
+.works-container {
+  margin:0 auto;
+  height:900px;
+  width:1100px;
+}
+
+.works-container > h4 {
+  margin:30px 0 0 0;
+  width:150px;
+  text-align:center;
+  border-bottom:3px solid #483d8b;
+}
+
+.work {
+  height:350px;
+  padding:10px 20px;
+  background-color:#eee;
+}
+
+.work > p {
+  font-size:18px;
+  padding:0 10px;
+}
+
+.work > a {
+  font-size:17px;
+}
+
+hr {
+  width:100%;
+  height:4px;
+  border:none;
+  background-color:#696969;
+}
+
+.fa-solid {
+  margin-right:3px;
+}
+
+.pic {
+  height:250px;
+  margin-right:15px;
+  float:left;
+}
