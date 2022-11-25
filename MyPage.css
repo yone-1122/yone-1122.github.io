@@ -4,9 +4,12 @@ html {
   font-family: 'M PLUS 1p', sans-serif;
 }
 
+/*
 * {
   box-sizing:border-box;
 }
+*/
+
 .container {
   width:100%;
   padding:0 20px;
