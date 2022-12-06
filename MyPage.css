@@ -83,13 +83,11 @@ html {
   float: left;
   background-image: url(back-blue.png);
   background-size: 100% 100%;
-  /*background-color:#f4f9ff;
-  border: 5px outset #9eceff;*/
 }
 
 .training-wrapper {
   height:1000px;
-  padding:30px 5% 60px 5%;
+  padding:30px 10% 60px 5%;
   font-size:20px;
 }
 
