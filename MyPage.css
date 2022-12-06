@@ -10,49 +10,54 @@ html {
   margin:0 auto;
 }
 
-.top-wrapper {
-  padding:0 130px;
-  background-color: #191970;
-  opacity: 0.8;
-  color:white;
+.top-img {
+  background-image: url(sakura.jpg);
+  background-size: cover;
   text-align:center;
 }
 
-.top-wrapper h1 {
-  margin:0 auto;
-  font-size:120px;
-  letter-spacing:3px;
-  display:inline-block;
+.top-wrapper {
+  padding:0 130px;
+  background-color: rgba(234, 244, 255, 0.5);
 }
 
-.top-wrapper span {
+.top-img h1 {
+  margin:0 auto;
+  font-size:200px;
+  color: black;
+  text-shadow: 4px 4px white;
+  letter-spacing:3px;
+}
+
+.top-img span {
   font-size:40px;
   letter-spacing:1px;
 }
 
 .heading {
-  width:200px;
-  margin-bottom:30px;
-  font-size:33px;
+  font-size:38px;
   font-weight:bold;
-  border-bottom: 3px solid gray;
+  text-align: center;
+  margin-bottom: 0;
+  border-bottom: 4px solid gray;
+  clear: left;
 }
 
 .about-wrapper {
-  height:400px;
-  padding:30px 5% 60px 5%;
+  height:350px;
+  padding:30px 10% 60px 5%;
   font-size:20px;
 }
 
 .profile {
-  width:50%;
-  float:left;
+  height: 250px;
+  padding-left: 20%;
 }
 
 .profile1 {
-  margin-left:40px;
-  padding-top:20px;
-  float:left;
+  margin: 0 20px;
+  padding-top: 60px;
+  float: left;
 }
 
 .profile1 p.name {
@@ -70,49 +75,16 @@ html {
   text-align:left;
 }
 
-img.mask {
-  height:180px;
-  margin-left:40px;
-}
-
 .profile2 {
-  width:90%;
+  width: 50%;
   font-size:18px;
-  padding:10px;
+  padding:50px 30px;
   margin-top:10px;
-  background-color:#f4f9ff;
-  border: 5px outset #9eceff;
-}
-
-.history {
-  padding-top:20px;
-  float:left;
-}
-
-.history details {
-  margin-bottom:20px;
-}
-
-.history summary {
-  width:10em;
-  padding:3px;
-  cursor:pointer;
-  background-color:#eff7ff;
-  box-shadow:2px 2px 3px black;
-}
-
-.history ul {
-  padding:10px 40px;
-  margin:0;
-  font-size:17px;
-  background-color:#f9f9f9;
-  box-shadow:2px 2px 3px black;
-}
-
-span.year, span.month {
-  display:inline-block;
-  width:1.2em;
-  text-align:right;
+  float: left;
+  background-image: url(back-blue.png);
+  background-size: 100% 100%;
+  /*background-color:#f4f9ff;
+  border: 5px outset #9eceff;*/
 }
 
 .training-wrapper {
@@ -129,13 +101,14 @@ span.year, span.month {
 }
 
 .work {
-  height:300px;
-  padding:10px 35px;
+  height:350px;
+  padding:10px 35px 30px 35px;
   margin-bottom:20px;
   background-color:#eee;
 }
 
 .work p {
+  padding-top:30px;
   margin-bottom:5px;
   font-size:18px;
   padding:0 10px;
@@ -145,19 +118,13 @@ span.year, span.month {
   font-size:17px;
 }
 
-hr {
-  width:100%;
-  height:4px;
-  border:none;
-  background-color:#696969;
-}
-
 .fa-solid {
   margin-right:3px;
 }
 
-.pic {
-  width:200px;
+.work img {
+  width:20%;
+  margin-top:10px;
   margin-right:15px;
   float:left;
 }
